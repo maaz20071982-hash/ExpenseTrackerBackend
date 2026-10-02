@@ -1,0 +1,42 @@
+# Target and build output
+target/
+*.jar
+*.war
+*.ear
+cp.txt
+
+# Maven Wrapper JAR
+.mvn/wrapper/maven-wrapper.jar
+
+# IDE files
+.idea/
+*.iml
+*.iws
+*.ipr
+.vscode/
+.classpath
+.project
+.settings/
+.factorypath
+.apt_generated
+.springBeans
+.sts4-cache
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+
+# Local Environment and Secret files
+.env
+*.env
+.env.local
+.env.*.local
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
